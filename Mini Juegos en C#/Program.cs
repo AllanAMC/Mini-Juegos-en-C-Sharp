@@ -97,7 +97,7 @@ namespace MiniGames
             {
                 Console.WriteLine($"===== FELICIDADES JUGADOR EL NUMERO ERA '{numeroSecreto}', GANASTE! =====");
             }
-            else { Console.WriteLine($"==== LA PC HA GANADO EL NUMERO ERA '{numeroSecreto}' ======"); }
+            else { Console.WriteLine($"===== LA PC HA GANADO, EL NUMERO ERA '{numeroSecreto}' ======"); }
         }
 }
 }
