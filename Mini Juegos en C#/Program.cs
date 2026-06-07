@@ -99,4 +99,4 @@ namespace MiniGames
             else { Console.WriteLine($"===== LA PC HA GANADO, EL NUMERO ERA '{numeroSecreto}' ======"); }
         }
 }
-}}
+}
