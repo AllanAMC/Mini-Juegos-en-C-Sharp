@@ -32,9 +32,8 @@ namespace MiniGames
             int min = 0;
             int numeroPC;
             bool ganoJugador = false;
-            List<int> numerosPC = [];
 
-            Random rnd = new Random();
+            Random rnd = new();
 
             int numeroSecreto = rnd.Next(501);
             Console.WriteLine("======== BIENVENIDO AL JUEGO DE ADIVINA EL NUMERO VS PC (500) EN C# ========");
@@ -100,4 +99,4 @@ namespace MiniGames
             else { Console.WriteLine($"===== LA PC HA GANADO, EL NUMERO ERA '{numeroSecreto}' ======"); }
         }
 }
-}
+}}
